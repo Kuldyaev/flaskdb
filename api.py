@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 import json
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://slava:Vlada2004@127.0.0.1/slava'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://slava:Vlada2004@192.168.1.248/slava'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
